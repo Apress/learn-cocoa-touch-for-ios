@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F26F826153B5EA700F7F718 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F26F825153B5EA700F7F718 /* MediaPlayer.framework */; };
+		1F26F829153B661900F7F718 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F26F828153B661900F7F718 /* MobileCoreServices.framework */; };
+		1FF2DA74153A8D490094113D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF2DA73153A8D490094113D /* UIKit.framework */; };
+		1FF2DA76153A8D490094113D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF2DA75153A8D490094113D /* Foundation.framework */; };
+		1FF2DA78153A8D490094113D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF2DA77153A8D490094113D /* CoreGraphics.framework */; };
+		1FF2DA7E153A8D490094113D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FF2DA7C153A8D490094113D /* InfoPlist.strings */; };
+		1FF2DA80153A8D490094113D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2DA7F153A8D490094113D /* main.m */; };
+		1FF2DA84153A8D490094113D /* LCTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2DA83153A8D490094113D /* LCTAppDelegate.m */; };
+		1FF2DA87153A8D490094113D /* LCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF2DA86153A8D490094113D /* LCTViewController.m */; };
+		1FF2DA8A153A8D490094113D /* LCTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF2DA88153A8D490094113D /* LCTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F26F825153B5EA700F7F718 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1F26F828153B661900F7F718 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1FF2DA6F153A8D490094113D /* CustomPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF2DA73153A8D490094113D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FF2DA75153A8D490094113D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FF2DA77153A8D490094113D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FF2DA7B153A8D490094113D /* CustomPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomPlayer-Info.plist"; sourceTree = "<group>"; };
+		1FF2DA7D153A8D490094113D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FF2DA7F153A8D490094113D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FF2DA81153A8D490094113D /* CustomPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		1FF2DA82153A8D490094113D /* LCTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTAppDelegate.h; sourceTree = "<group>"; };
+		1FF2DA83153A8D490094113D /* LCTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTAppDelegate.m; sourceTree = "<group>"; };
+		1FF2DA85153A8D490094113D /* LCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTViewController.h; sourceTree = "<group>"; };
+		1FF2DA86153A8D490094113D /* LCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTViewController.m; sourceTree = "<group>"; };
+		1FF2DA89153A8D490094113D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF2DA6C153A8D490094113D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF2DA78153A8D490094113D /* CoreGraphics.framework in Frameworks */,
+				1FF2DA76153A8D490094113D /* Foundation.framework in Frameworks */,
+				1F26F826153B5EA700F7F718 /* MediaPlayer.framework in Frameworks */,
+				1F26F829153B661900F7F718 /* MobileCoreServices.framework in Frameworks */,
+				1FF2DA74153A8D490094113D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF2DA64153A8D490094113D = {
+			isa = PBXGroup;
+			children = (
+				1FF2DA79153A8D490094113D /* CustomPlayer */,
+				1FF2DA72153A8D490094113D /* Frameworks */,
+				1FF2DA70153A8D490094113D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF2DA70153A8D490094113D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2DA6F153A8D490094113D /* CustomPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF2DA72153A8D490094113D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2DA77153A8D490094113D /* CoreGraphics.framework */,
+				1FF2DA75153A8D490094113D /* Foundation.framework */,
+				1F26F825153B5EA700F7F718 /* MediaPlayer.framework */,
+				1F26F828153B661900F7F718 /* MobileCoreServices.framework */,
+				1FF2DA73153A8D490094113D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FF2DA79153A8D490094113D /* CustomPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2DA82153A8D490094113D /* LCTAppDelegate.h */,
+				1FF2DA83153A8D490094113D /* LCTAppDelegate.m */,
+				1FF2DA85153A8D490094113D /* LCTViewController.h */,
+				1FF2DA86153A8D490094113D /* LCTViewController.m */,
+				1FF2DA88153A8D490094113D /* LCTViewController.xib */,
+				1FF2DA7A153A8D490094113D /* Supporting Files */,
+			);
+			path = CustomPlayer;
+			sourceTree = "<group>";
+		};
+		1FF2DA7A153A8D490094113D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FF2DA7B153A8D490094113D /* CustomPlayer-Info.plist */,
+				1FF2DA7C153A8D490094113D /* InfoPlist.strings */,
+				1FF2DA7F153A8D490094113D /* main.m */,
+				1FF2DA81153A8D490094113D /* CustomPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF2DA6E153A8D490094113D /* CustomPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF2DA8D153A8D490094113D /* Build configuration list for PBXNativeTarget "CustomPlayer" */;
+			buildPhases = (
+				1FF2DA6B153A8D490094113D /* Sources */,
+				1FF2DA6C153A8D490094113D /* Frameworks */,
+				1FF2DA6D153A8D490094113D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPlayer;
+			productName = CustomPlayer;
+			productReference = 1FF2DA6F153A8D490094113D /* CustomPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF2DA66153A8D490094113D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Learn Cocoa Touch";
+			};
+			buildConfigurationList = 1FF2DA69153A8D490094113D /* Build configuration list for PBXProject "CustomPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FF2DA64153A8D490094113D;
+			productRefGroup = 1FF2DA70153A8D490094113D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF2DA6E153A8D490094113D /* CustomPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF2DA6D153A8D490094113D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF2DA7E153A8D490094113D /* InfoPlist.strings in Resources */,
+				1FF2DA8A153A8D490094113D /* LCTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF2DA6B153A8D490094113D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF2DA80153A8D490094113D /* main.m in Sources */,
+				1FF2DA84153A8D490094113D /* LCTAppDelegate.m in Sources */,
+				1FF2DA87153A8D490094113D /* LCTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FF2DA7C153A8D490094113D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF2DA7D153A8D490094113D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FF2DA88153A8D490094113D /* LCTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FF2DA89153A8D490094113D /* en */,
+			);
+			name = LCTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FF2DA8B153A8D490094113D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FF2DA8C153A8D490094113D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FF2DA8E153A8D490094113D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomPlayer/CustomPlayer-Prefix.pch";
+				INFOPLIST_FILE = "CustomPlayer/CustomPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FF2DA8F153A8D490094113D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomPlayer/CustomPlayer-Prefix.pch";
+				INFOPLIST_FILE = "CustomPlayer/CustomPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF2DA69153A8D490094113D /* Build configuration list for PBXProject "CustomPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF2DA8B153A8D490094113D /* Debug */,
+				1FF2DA8C153A8D490094113D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF2DA8D153A8D490094113D /* Build configuration list for PBXNativeTarget "CustomPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF2DA8E153A8D490094113D /* Debug */,
+				1FF2DA8F153A8D490094113D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF2DA66153A8D490094113D /* Project object */;
+}

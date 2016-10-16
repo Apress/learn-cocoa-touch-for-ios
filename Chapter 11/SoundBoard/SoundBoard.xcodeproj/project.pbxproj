@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FB10AF51539ECD9005FBCEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB10AF41539ECD9005FBCEC /* UIKit.framework */; };
+		1FB10AF71539ECD9005FBCEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB10AF61539ECD9005FBCEC /* Foundation.framework */; };
+		1FB10AF91539ECD9005FBCEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB10AF81539ECD9005FBCEC /* CoreGraphics.framework */; };
+		1FB10AFF1539ECD9005FBCEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FB10AFD1539ECD9005FBCEC /* InfoPlist.strings */; };
+		1FB10B011539ECD9005FBCEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB10B001539ECD9005FBCEC /* main.m */; };
+		1FB10B051539ECD9005FBCEC /* LCTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB10B041539ECD9005FBCEC /* LCTAppDelegate.m */; };
+		1FB10B081539ECD9005FBCEC /* LCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB10B071539ECD9005FBCEC /* LCTViewController.m */; };
+		1FB10B0B1539ECD9005FBCEC /* LCTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FB10B091539ECD9005FBCEC /* LCTViewController.xib */; };
+		1FB10B12153A6247005FBCEC /* Trumpet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1FB10B11153A6247005FBCEC /* Trumpet.m4a */; };
+		1FB10B16153A62B9005FBCEC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB10B15153A62B9005FBCEC /* AudioToolbox.framework */; };
+		1FB10B18153A698C005FBCEC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB10B17153A698C005FBCEC /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FB10AF01539ECD9005FBCEC /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB10AF41539ECD9005FBCEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FB10AF61539ECD9005FBCEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FB10AF81539ECD9005FBCEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FB10AFC1539ECD9005FBCEC /* SoundBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundBoard-Info.plist"; sourceTree = "<group>"; };
+		1FB10AFE1539ECD9005FBCEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FB10B001539ECD9005FBCEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FB10B021539ECD9005FBCEC /* SoundBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundBoard-Prefix.pch"; sourceTree = "<group>"; };
+		1FB10B031539ECD9005FBCEC /* LCTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTAppDelegate.h; sourceTree = "<group>"; };
+		1FB10B041539ECD9005FBCEC /* LCTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTAppDelegate.m; sourceTree = "<group>"; };
+		1FB10B061539ECD9005FBCEC /* LCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTViewController.h; sourceTree = "<group>"; };
+		1FB10B071539ECD9005FBCEC /* LCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTViewController.m; sourceTree = "<group>"; };
+		1FB10B0A1539ECD9005FBCEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCTViewController.xib; sourceTree = "<group>"; };
+		1FB10B11153A6247005FBCEC /* Trumpet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Trumpet.m4a; sourceTree = "<group>"; };
+		1FB10B13153A626F005FBCEC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		1FB10B15153A62B9005FBCEC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1FB10B17153A698C005FBCEC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FB10AED1539ECD9005FBCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB10B16153A62B9005FBCEC /* AudioToolbox.framework in Frameworks */,
+				1FB10B18153A698C005FBCEC /* AVFoundation.framework in Frameworks */,
+				1FB10AF91539ECD9005FBCEC /* CoreGraphics.framework in Frameworks */,
+				1FB10AF71539ECD9005FBCEC /* Foundation.framework in Frameworks */,
+				1FB10AF51539ECD9005FBCEC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB10AE51539ECD9005FBCEC = {
+			isa = PBXGroup;
+			children = (
+				1FB10AFA1539ECD9005FBCEC /* SoundBoard */,
+				1FB10AF31539ECD9005FBCEC /* Frameworks */,
+				1FB10AF11539ECD9005FBCEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FB10AF11539ECD9005FBCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FB10AF01539ECD9005FBCEC /* SoundBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FB10AF31539ECD9005FBCEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FB10B15153A62B9005FBCEC /* AudioToolbox.framework */,
+				1FB10B17153A698C005FBCEC /* AVFoundation.framework */,
+				1FB10AF81539ECD9005FBCEC /* CoreGraphics.framework */,
+				1FB10AF61539ECD9005FBCEC /* Foundation.framework */,
+				1FB10B13153A626F005FBCEC /* MediaPlayer.framework */,
+				1FB10AF41539ECD9005FBCEC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FB10AFA1539ECD9005FBCEC /* SoundBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1FB10B031539ECD9005FBCEC /* LCTAppDelegate.h */,
+				1FB10B041539ECD9005FBCEC /* LCTAppDelegate.m */,
+				1FB10B061539ECD9005FBCEC /* LCTViewController.h */,
+				1FB10B071539ECD9005FBCEC /* LCTViewController.m */,
+				1FB10B091539ECD9005FBCEC /* LCTViewController.xib */,
+				1FB10AFB1539ECD9005FBCEC /* Supporting Files */,
+			);
+			path = SoundBoard;
+			sourceTree = "<group>";
+		};
+		1FB10AFB1539ECD9005FBCEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FB10B11153A6247005FBCEC /* Trumpet.m4a */,
+				1FB10AFC1539ECD9005FBCEC /* SoundBoard-Info.plist */,
+				1FB10AFD1539ECD9005FBCEC /* InfoPlist.strings */,
+				1FB10B001539ECD9005FBCEC /* main.m */,
+				1FB10B021539ECD9005FBCEC /* SoundBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FB10AEF1539ECD9005FBCEC /* SoundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB10B0E1539ECD9005FBCEC /* Build configuration list for PBXNativeTarget "SoundBoard" */;
+			buildPhases = (
+				1FB10AEC1539ECD9005FBCEC /* Sources */,
+				1FB10AED1539ECD9005FBCEC /* Frameworks */,
+				1FB10AEE1539ECD9005FBCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundBoard;
+			productName = SoundBoard;
+			productReference = 1FB10AF01539ECD9005FBCEC /* SoundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FB10AE71539ECD9005FBCEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jeff Kelley";
+			};
+			buildConfigurationList = 1FB10AEA1539ECD9005FBCEC /* Build configuration list for PBXProject "SoundBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1FB10AE51539ECD9005FBCEC;
+			productRefGroup = 1FB10AF11539ECD9005FBCEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FB10AEF1539ECD9005FBCEC /* SoundBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB10AEE1539ECD9005FBCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB10AFF1539ECD9005FBCEC /* InfoPlist.strings in Resources */,
+				1FB10B0B1539ECD9005FBCEC /* LCTViewController.xib in Resources */,
+				1FB10B12153A6247005FBCEC /* Trumpet.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB10AEC1539ECD9005FBCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB10B011539ECD9005FBCEC /* main.m in Sources */,
+				1FB10B051539ECD9005FBCEC /* LCTAppDelegate.m in Sources */,
+				1FB10B081539ECD9005FBCEC /* LCTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FB10AFD1539ECD9005FBCEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB10AFE1539ECD9005FBCEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FB10B091539ECD9005FBCEC /* LCTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB10B0A1539ECD9005FBCEC /* en */,
+			);
+			name = LCTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FB10B0C1539ECD9005FBCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FB10B0D1539ECD9005FBCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FB10B0F1539ECD9005FBCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundBoard/SoundBoard-Prefix.pch";
+				INFOPLIST_FILE = "SoundBoard/SoundBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FB10B101539ECD9005FBCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundBoard/SoundBoard-Prefix.pch";
+				INFOPLIST_FILE = "SoundBoard/SoundBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FB10AEA1539ECD9005FBCEC /* Build configuration list for PBXProject "SoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB10B0C1539ECD9005FBCEC /* Debug */,
+				1FB10B0D1539ECD9005FBCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FB10B0E1539ECD9005FBCEC /* Build configuration list for PBXNativeTarget "SoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB10B0F1539ECD9005FBCEC /* Debug */,
+				1FB10B101539ECD9005FBCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FB10AE71539ECD9005FBCEC /* Project object */;
+}

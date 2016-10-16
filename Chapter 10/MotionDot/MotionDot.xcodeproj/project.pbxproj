@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F40A1DE1525628D00428861 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F40A1DD1525628D00428861 /* UIKit.framework */; };
+		1F40A1E01525628D00428861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F40A1DF1525628D00428861 /* Foundation.framework */; };
+		1F40A1E21525628D00428861 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F40A1E11525628D00428861 /* CoreGraphics.framework */; };
+		1F40A1E81525628D00428861 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F40A1E61525628D00428861 /* InfoPlist.strings */; };
+		1F40A1EA1525628D00428861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40A1E91525628D00428861 /* main.m */; };
+		1F40A1EE1525628D00428861 /* LCTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40A1ED1525628D00428861 /* LCTAppDelegate.m */; };
+		1F40A1F11525628D00428861 /* LCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F40A1F01525628D00428861 /* LCTViewController.m */; };
+		1F40A1F41525628D00428861 /* LCTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F40A1F21525628D00428861 /* LCTViewController.xib */; };
+		1F40A1FB1525670E00428861 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F40A1FA1525670E00428861 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F40A1D91525628D00428861 /* MotionDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F40A1DD1525628D00428861 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F40A1DF1525628D00428861 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F40A1E11525628D00428861 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F40A1E51525628D00428861 /* MotionDot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotionDot-Info.plist"; sourceTree = "<group>"; };
+		1F40A1E71525628D00428861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F40A1E91525628D00428861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F40A1EB1525628D00428861 /* MotionDot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotionDot-Prefix.pch"; sourceTree = "<group>"; };
+		1F40A1EC1525628D00428861 /* LCTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTAppDelegate.h; sourceTree = "<group>"; };
+		1F40A1ED1525628D00428861 /* LCTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTAppDelegate.m; sourceTree = "<group>"; };
+		1F40A1EF1525628D00428861 /* LCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCTViewController.h; sourceTree = "<group>"; };
+		1F40A1F01525628D00428861 /* LCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTViewController.m; sourceTree = "<group>"; };
+		1F40A1F31525628D00428861 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCTViewController.xib; sourceTree = "<group>"; };
+		1F40A1FA1525670E00428861 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F40A1D61525628D00428861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F40A1FB1525670E00428861 /* CoreMotion.framework in Frameworks */,
+				1F40A1DE1525628D00428861 /* UIKit.framework in Frameworks */,
+				1F40A1E01525628D00428861 /* Foundation.framework in Frameworks */,
+				1F40A1E21525628D00428861 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F40A1CE1525628D00428861 = {
+			isa = PBXGroup;
+			children = (
+				1F40A1FA1525670E00428861 /* CoreMotion.framework */,
+				1F40A1E31525628D00428861 /* MotionDot */,
+				1F40A1DC1525628D00428861 /* Frameworks */,
+				1F40A1DA1525628D00428861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F40A1DA1525628D00428861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F40A1D91525628D00428861 /* MotionDot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F40A1DC1525628D00428861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F40A1DD1525628D00428861 /* UIKit.framework */,
+				1F40A1DF1525628D00428861 /* Foundation.framework */,
+				1F40A1E11525628D00428861 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F40A1E31525628D00428861 /* MotionDot */ = {
+			isa = PBXGroup;
+			children = (
+				1F40A1EC1525628D00428861 /* LCTAppDelegate.h */,
+				1F40A1ED1525628D00428861 /* LCTAppDelegate.m */,
+				1F40A1EF1525628D00428861 /* LCTViewController.h */,
+				1F40A1F01525628D00428861 /* LCTViewController.m */,
+				1F40A1F21525628D00428861 /* LCTViewController.xib */,
+				1F40A1E41525628D00428861 /* Supporting Files */,
+			);
+			path = MotionDot;
+			sourceTree = "<group>";
+		};
+		1F40A1E41525628D00428861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F40A1E51525628D00428861 /* MotionDot-Info.plist */,
+				1F40A1E61525628D00428861 /* InfoPlist.strings */,
+				1F40A1E91525628D00428861 /* main.m */,
+				1F40A1EB1525628D00428861 /* MotionDot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F40A1D81525628D00428861 /* MotionDot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F40A1F71525628D00428861 /* Build configuration list for PBXNativeTarget "MotionDot" */;
+			buildPhases = (
+				1F40A1D51525628D00428861 /* Sources */,
+				1F40A1D61525628D00428861 /* Frameworks */,
+				1F40A1D71525628D00428861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionDot;
+			productName = MotionDot;
+			productReference = 1F40A1D91525628D00428861 /* MotionDot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F40A1D01525628D00428861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCT;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jeff Kelley";
+			};
+			buildConfigurationList = 1F40A1D31525628D00428861 /* Build configuration list for PBXProject "MotionDot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F40A1CE1525628D00428861;
+			productRefGroup = 1F40A1DA1525628D00428861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F40A1D81525628D00428861 /* MotionDot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F40A1D71525628D00428861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F40A1E81525628D00428861 /* InfoPlist.strings in Resources */,
+				1F40A1F41525628D00428861 /* LCTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F40A1D51525628D00428861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F40A1EA1525628D00428861 /* main.m in Sources */,
+				1F40A1EE1525628D00428861 /* LCTAppDelegate.m in Sources */,
+				1F40A1F11525628D00428861 /* LCTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F40A1E61525628D00428861 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F40A1E71525628D00428861 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F40A1F21525628D00428861 /* LCTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F40A1F31525628D00428861 /* en */,
+			);
+			name = LCTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F40A1F51525628D00428861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F40A1F61525628D00428861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F40A1F81525628D00428861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionDot/MotionDot-Prefix.pch";
+				INFOPLIST_FILE = "MotionDot/MotionDot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F40A1F91525628D00428861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotionDot/MotionDot-Prefix.pch";
+				INFOPLIST_FILE = "MotionDot/MotionDot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F40A1D31525628D00428861 /* Build configuration list for PBXProject "MotionDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F40A1F51525628D00428861 /* Debug */,
+				1F40A1F61525628D00428861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F40A1F71525628D00428861 /* Build configuration list for PBXNativeTarget "MotionDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F40A1F81525628D00428861 /* Debug */,
+				1F40A1F91525628D00428861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F40A1D01525628D00428861 /* Project object */;
+}
