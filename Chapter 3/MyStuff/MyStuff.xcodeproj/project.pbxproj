@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6F8DA814D264D6000AE9BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6F8DA714D264D6000AE9BD /* UIKit.framework */; };
+		1F6F8DAA14D264D6000AE9BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6F8DA914D264D6000AE9BD /* Foundation.framework */; };
+		1F6F8DAC14D264D6000AE9BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6F8DAB14D264D6000AE9BD /* CoreGraphics.framework */; };
+		1F6F8DB214D264D6000AE9BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F6F8DB014D264D6000AE9BD /* InfoPlist.strings */; };
+		1F6F8DB414D264D6000AE9BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6F8DB314D264D6000AE9BD /* main.m */; };
+		1F6F8DB814D264D6000AE9BD /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6F8DB714D264D6000AE9BD /* JKAppDelegate.m */; };
+		1F6F8DC014D2654F000AE9BD /* Possession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6F8DBF14D2654F000AE9BD /* Possession.m */; };
+		1F6F8DC314D26684000AE9BD /* PossessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6F8DC214D26684000AE9BD /* PossessionListViewController.m */; };
+		1FBECC0214D28452008D8381 /* PossessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBECC0014D28452008D8381 /* PossessionDetailViewController.m */; };
+		1FBECC0314D28452008D8381 /* PossessionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBECC0114D28452008D8381 /* PossessionDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F6F8DA314D264D6000AE9BD /* MyStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6F8DA714D264D6000AE9BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F6F8DA914D264D6000AE9BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F6F8DAB14D264D6000AE9BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F6F8DAF14D264D6000AE9BD /* MyStuff-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyStuff-Info.plist"; sourceTree = "<group>"; };
+		1F6F8DB114D264D6000AE9BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F6F8DB314D264D6000AE9BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F6F8DB514D264D6000AE9BD /* MyStuff-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyStuff-Prefix.pch"; sourceTree = "<group>"; };
+		1F6F8DB614D264D6000AE9BD /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		1F6F8DB714D264D6000AE9BD /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		1F6F8DBE14D2654F000AE9BD /* Possession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Possession.h; sourceTree = "<group>"; };
+		1F6F8DBF14D2654F000AE9BD /* Possession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Possession.m; sourceTree = "<group>"; };
+		1F6F8DC114D26684000AE9BD /* PossessionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PossessionListViewController.h; sourceTree = "<group>"; };
+		1F6F8DC214D26684000AE9BD /* PossessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PossessionListViewController.m; sourceTree = "<group>"; };
+		1FBECBFE14D2818C008D8381 /* PossessionDetailViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PossessionDetailViewControllerDelegate.h; sourceTree = "<group>"; };
+		1FBECBFF14D28452008D8381 /* PossessionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PossessionDetailViewController.h; sourceTree = "<group>"; };
+		1FBECC0014D28452008D8381 /* PossessionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PossessionDetailViewController.m; sourceTree = "<group>"; };
+		1FBECC0114D28452008D8381 /* PossessionDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PossessionDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F6F8DA014D264D6000AE9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6F8DA814D264D6000AE9BD /* UIKit.framework in Frameworks */,
+				1F6F8DAA14D264D6000AE9BD /* Foundation.framework in Frameworks */,
+				1F6F8DAC14D264D6000AE9BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6F8D9814D264D6000AE9BD = {
+			isa = PBXGroup;
+			children = (
+				1F6F8DAD14D264D6000AE9BD /* MyStuff */,
+				1F6F8DA614D264D6000AE9BD /* Frameworks */,
+				1F6F8DA414D264D6000AE9BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6F8DA414D264D6000AE9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F8DA314D264D6000AE9BD /* MyStuff.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6F8DA614D264D6000AE9BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F8DA714D264D6000AE9BD /* UIKit.framework */,
+				1F6F8DA914D264D6000AE9BD /* Foundation.framework */,
+				1F6F8DAB14D264D6000AE9BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F6F8DAD14D264D6000AE9BD /* MyStuff */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F8DAE14D264D6000AE9BD /* Supporting Files */,
+				1F6F8DB614D264D6000AE9BD /* JKAppDelegate.h */,
+				1F6F8DB714D264D6000AE9BD /* JKAppDelegate.m */,
+				1F6F8DBE14D2654F000AE9BD /* Possession.h */,
+				1F6F8DBF14D2654F000AE9BD /* Possession.m */,
+				1F6F8DC114D26684000AE9BD /* PossessionListViewController.h */,
+				1F6F8DC214D26684000AE9BD /* PossessionListViewController.m */,
+				1FBECBFF14D28452008D8381 /* PossessionDetailViewController.h */,
+				1FBECC0014D28452008D8381 /* PossessionDetailViewController.m */,
+				1FBECC0114D28452008D8381 /* PossessionDetailViewController.xib */,
+				1FBECBFE14D2818C008D8381 /* PossessionDetailViewControllerDelegate.h */,
+			);
+			path = MyStuff;
+			sourceTree = "<group>";
+		};
+		1F6F8DAE14D264D6000AE9BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F8DAF14D264D6000AE9BD /* MyStuff-Info.plist */,
+				1F6F8DB014D264D6000AE9BD /* InfoPlist.strings */,
+				1F6F8DB314D264D6000AE9BD /* main.m */,
+				1F6F8DB514D264D6000AE9BD /* MyStuff-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F6F8DA214D264D6000AE9BD /* MyStuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6F8DBB14D264D6000AE9BD /* Build configuration list for PBXNativeTarget "MyStuff" */;
+			buildPhases = (
+				1F6F8D9F14D264D6000AE9BD /* Sources */,
+				1F6F8DA014D264D6000AE9BD /* Frameworks */,
+				1F6F8DA114D264D6000AE9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyStuff;
+			productName = MyStuff;
+			productReference = 1F6F8DA314D264D6000AE9BD /* MyStuff.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6F8D9A14D264D6000AE9BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Jeff Kelley";
+			};
+			buildConfigurationList = 1F6F8D9D14D264D6000AE9BD /* Build configuration list for PBXProject "MyStuff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F6F8D9814D264D6000AE9BD;
+			productRefGroup = 1F6F8DA414D264D6000AE9BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6F8DA214D264D6000AE9BD /* MyStuff */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F6F8DA114D264D6000AE9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6F8DB214D264D6000AE9BD /* InfoPlist.strings in Resources */,
+				1FBECC0314D28452008D8381 /* PossessionDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F6F8D9F14D264D6000AE9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6F8DB414D264D6000AE9BD /* main.m in Sources */,
+				1F6F8DB814D264D6000AE9BD /* JKAppDelegate.m in Sources */,
+				1F6F8DC014D2654F000AE9BD /* Possession.m in Sources */,
+				1F6F8DC314D26684000AE9BD /* PossessionListViewController.m in Sources */,
+				1FBECC0214D28452008D8381 /* PossessionDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F6F8DB014D264D6000AE9BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6F8DB114D264D6000AE9BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F6F8DB914D264D6000AE9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F6F8DBA14D264D6000AE9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F6F8DBC14D264D6000AE9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStuff/MyStuff-Prefix.pch";
+				INFOPLIST_FILE = "MyStuff/MyStuff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F6F8DBD14D264D6000AE9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyStuff/MyStuff-Prefix.pch";
+				INFOPLIST_FILE = "MyStuff/MyStuff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F6F8D9D14D264D6000AE9BD /* Build configuration list for PBXProject "MyStuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6F8DB914D264D6000AE9BD /* Debug */,
+				1F6F8DBA14D264D6000AE9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6F8DBB14D264D6000AE9BD /* Build configuration list for PBXNativeTarget "MyStuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6F8DBC14D264D6000AE9BD /* Debug */,
+				1F6F8DBD14D264D6000AE9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6F8D9A14D264D6000AE9BD /* Project object */;
+}
